@@ -37,6 +37,7 @@ git remote -v 查看本地仓库和哪些远程仓库保持连接
 git remote add origin https://github.com/liuzhenhao-123/git-upload.git 建立本地仓库与指定远程仓库的连接。Origin只是为连接起的一个名字。
 git remote rm origin 断掉仓库间的连接。
 git pull origin master 提交之前先拉取（可能有另外的管理者上传或直接在GitHub上修改上传了程序，此时再提交暂存区历史区）。
+# $git pull origin master --allow-unrelated-histories
 git push origin master 将本地代码提交到远程仓库。
 弹出浏览器:输入账号和密码，确认提交。
 或者取消掉浏览器窗口，在命令行输入GitHub的账户名以及密码，密码是暗文看不见，输完按enter键提交，代码开始Upload。
